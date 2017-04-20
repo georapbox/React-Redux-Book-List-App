@@ -23,7 +23,7 @@ class BookList extends Component {
 }
 
 BookList.propTypes = {
-  books: PropTypes.array
+  books: PropTypes.arrayOf(PropTypes.object)
 };
 
 function mapStateToProps(state) {

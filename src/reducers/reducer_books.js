@@ -1,4 +1,4 @@
-function BooksReducer() {
+function booksReducer() {
   return [
     {title: 'Javascript: The Good Parts'},
     {title: 'Harry Potter'},
@@ -7,4 +7,4 @@ function BooksReducer() {
   ];
 }
 
-export default BooksReducer;
+export default booksReducer;

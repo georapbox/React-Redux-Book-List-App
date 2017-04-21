@@ -23,7 +23,9 @@ class BookDetail extends Component {
           <h4 className="card-title">{book.title}</h4>
           <p>by <a href="#">{book.author}</a></p>
           <p>{book.description}</p>
-          <a href="#" className="btn btn-primary">Add to cart <small>(${book.price})</small></a>
+          <a href="#" className="btn btn-primary">
+            Add to cart <small>(${book.price})</small>
+          </a>
         </div>
       </div>
     );

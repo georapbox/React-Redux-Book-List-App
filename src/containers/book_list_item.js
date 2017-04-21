@@ -30,6 +30,12 @@ class BookListItem extends Component {
       </li>
     );
   }
+
+  componentWillMount() {
+    if (this.props.book.id === 1) {
+      this.props.selectBook(this.props.book);
+    }
+  }
 }
 
 function mapStateToProps(state) {
